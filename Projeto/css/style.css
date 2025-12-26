@@ -423,3 +423,32 @@ html {
 .nav-links a:hover::after, .nav-links a.active::after {
     width: 100%; /* A linha cresce da esquerda para a direita */
 }
+
+/* --- Scrollbar Personalizada (Versão Vibrante) --- */
+
+/* 1. Regras para FIREFOX (Novo Padrão) */
+html {
+    scrollbar-width: thin; /* Em Firefox será sempre mais fina */
+    /* Cor da Barra (Verde) e do Fundo (Creme Dourado) */
+    scrollbar-color: var(--cor-principal) #f4e4bc;
+}
+
+/* 2. Regras para CHROME, EDGE, SAFARI (Webkit) */
+::-webkit-scrollbar {
+    width: 15px; /* Mais larga para se ver bem a cor */
+}
+
+::-webkit-scrollbar-track {
+    background: #f4e4bc; /* Creme Dourado Sólido (sem transparência) */
+    border-left: 1px solid #d4af37; /* Linha fina dourada a separar do site */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-principal); /* Verde Escuro */
+    border-radius: 20px;       
+    border: 3px solid #f4e4bc; /* Borda da cor do fundo para criar efeito redondo */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor-destaque); /* Dourado Vivo ao passar o rato */
+}

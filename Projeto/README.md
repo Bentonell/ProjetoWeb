@@ -4,7 +4,7 @@
 **Disciplina:** Tecnologias da Internet 2025-2026  
 **Grupo:** FJRS
 **Alunos:**
-- Filipe Isakov - nº 
+- Filipe Isakov - nº 82684
 - João Bento – nº 82602
 - Rodrigo Manguinhas nº 82606
 - Sara Martinho – nº 82680

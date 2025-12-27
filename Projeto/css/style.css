@@ -79,6 +79,7 @@ header .container { display: flex; justify-content: space-between; align-items: 
 
 .menu-toggle {
     display: none;
+    margin-left: auto;
     background: var(--cor-destaque); 
     color: var(--cor-principal);
     padding: 8px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; user-select: none;

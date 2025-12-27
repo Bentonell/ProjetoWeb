@@ -85,6 +85,7 @@ header .container { display: flex; justify-content: space-between; align-items: 
     padding: 8px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; user-select: none;
 }
 
+/* ajustes intermédios */
 @media (max-width: 768px) {
     .menu-toggle { display: block; }
     
@@ -178,10 +179,11 @@ header .container { display: flex; justify-content: space-between; align-items: 
 }
 
 /* --- Breakpoints --- */
+/* tablet */
 @media (min-width: 481px) {
     .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
-
+/* desktop */
 @media (min-width: 993px) {
     .grid-container { grid-template-columns: repeat(3, 1fr); }
 }
